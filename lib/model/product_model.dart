@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// this is our app product model , it includes all product images and colors details
 class Product {
   final int id;
   final String title;
@@ -21,9 +22,9 @@ List<Product> furProducts = [
   Product(
     id: 1,
     images: [
-      "assets/images/jervaulx chair green.png",
-      "assets/images/jervaulx chair red.png",
-      "assets/images/jervaulx chair yellow.png",
+      "assets/images/jervaulx_chair_green.png",
+      "assets/images/jervaulx_chair_red.png",
+      "assets/images/jervaulx_chair_yellow.png",
     ],
     colors: [
       Colors.green,
@@ -37,9 +38,9 @@ List<Product> furProducts = [
   Product(
     id: 2,
     images: [
-      "assets/images/ball chair.png",
-      "assets/images/ball chair1.png",
-      "assets/images/ball chair2.png",
+      "assets/images/ball_chair.png",
+      "assets/images/ball_chair1.png",
+      "assets/images/ball_chair2.png",
     ],
     colors: [
       Colors.red,
@@ -52,12 +53,12 @@ List<Product> furProducts = [
   Product(
     id: 3,
     images: [
-      "assets/images/vector chair purple.png",
-      "assets/images/vector chair red.png",
-      "assets/images/vector chair green.png",
+      "assets/images/vector_chair_purple.png",
+      "assets/images/vector_chair_red.png",
+      "assets/images/vector_chair_green.png",
     ],
     colors: [
-      Colors.purple,
+      Colors.blue.shade900,
       Colors.red,
       Colors.green,
     ],
@@ -68,8 +69,8 @@ List<Product> furProducts = [
   Product(
     id: 4,
     images: [
-      "assets/images/movie director chair black.png",
-      "assets/images/movie director chair red.png",
+      "assets/images/movie_director _chair_black.png",
+      "assets/images/movie_director_chair_red.png",
     ],
     colors: [
       Colors.black,
